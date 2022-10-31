@@ -1,5 +1,9 @@
 # JAVA 복습
 
+<details>
+
+<summary>1.introduction to java</summary>
+
 ## 1.introduction to java
 
 #### Intro
@@ -25,3 +29,83 @@
 #### JVM, JRE, JDK
 
 - JVM은 위에서 설명한 것과 같고 JRE는 JVM을 생성하는 디스크 상의 부분이다. JDK는 개발자들이 JVM과 JRE에 의해 실행되고 구동될 수 있는 자바 프로그램을 생성할 수 있게 도와준다.
+
+#### Java Program 실행 과정
+
+- .Java 형식으로 파일을 저장한다. file name과 public class 'name'이 반드시 같아야 한다.
+- .class file로 Compile 된다. 예시로 javac Welcome.java가 있으며 문법적인 에러가 없다면 Welcome.class라는 파일이 생성된다.
+- .class file은 JVM에 의해 실행된다.
+</details>
+
+<details>
+
+<summary>2.elementary programming</summary>
+
+## 2.elementary programming
+
+#### Identifiers
+
+- identifier는 letter, digit, undersores, dollar sign으로 이루어진다.
+- 숫자로 시작할 수 없다.
+- reserved word와 겹치면 안 된다.
+- true, false, null도 될 수 없다.
+- 길이 제한 없다.
+
+#### Constants
+
+- final datatype CONSTANTNAME = VALUE; 과 같은 식으로 작성
+
+#### Naming Conventions
+
+- 의미 있는 이름을 사용한다.
+- variable과 method 이름: 소문자를 사용한다. 다른 단어들이 붙어 있는 경우 대문자로 구분한다.
+- class 이름: 대문자로 시작한다.
+- 상수: 글자 전부 대문자로 이루어져 있으며 다른 단어들은 밑줄로 구분한다.
+
+#### Floating-point Number
+
+- floating-poing number는 근사치이다.
+- 예를 들어, System.out.println(1.0-0.1-0.1-0.1-0.1-0.1); -> 0.5000000000000001, Not 0.5
+- 따라서 Integer를 통해 계산하는 것이 정확하다.
+
+#### Exponent Operation
+
+- Math.pow(2, 3); -> 8
+
+#### Literals
+
+- 프로그램에서 직접 표현한 값을 의미한다.
+
+#### Integer Literals
+
+- Integer literal은 정수 변수에 할당될 수 있다.
+- 범위가 안 맞으면 컴파일 오류가 날 수 있다.
+- 범위는 -2<sup>31</sup> 부터 2<sup>31</sup>-1 까지이다.
+- Long type으로 나타내기 위해 뒤에 L을 붙일 수 있다. 예를 들어 2147483548L
+
+#### Floating-Poing Literals
+
+- 기본적으로, floating-point literal은 double type value와 같이 다뤄진다.
+- 뒤에 F를 붙이거나 D를 붙여서 float, double로 만들 수 있다.
+- Double type과 Float type의 차이점은 Double type이 더 정밀하다는 것이다.
+
+#### Current Time
+
+- currentTimeMillis 메소드는 01-01-1970 부터 지금까지의 시간을 밀리초로 반환한다.
+
+#### Numeric Type Conversion
+
+- 다른 type 끼리 연산을 할 때 한 가지 타입으로 통합돼서 계산된다. 우선순위는 double > float > long > int 이다.
+
+#### Type Casting
+
+- type을 확장할 때는 암시적으로 캐스팅 해주지만 type을 축소할 때는 명시적으로 캐스팅 해준다.
+
+#### Operator ^
+
+- 두 bool 값이 서로 같을 때 false
+
+#### Conditional Expressions
+
+- y = (x>0)?1:-1; ==> 조건문이 참이면 1 거짓이면 -1
+</details>
