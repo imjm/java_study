@@ -149,4 +149,18 @@
 
 - parseInt를 사용하거나 String s = number + ""; 등과 같은 방법이 있다.
 
+#### Caution when loop
+
+- loop 조건문에서 floating-point value를 사용하면 안된다.
+- floating-point value는 근사치이므로, 이들을 사용하면 정확한 결과가 나오지 않는다.
+
+#### do-while loop
+
+- 최소 한 번은 실행한다.
+
+#### 어떤 loop를 쓸까?
+
+- 일반적으로 반복 횟수가 정해져 있을 때 for문을 사용한다.
+- while은 반복 횟수가 정해져 있지 않거나 input이 0일때까지 하는 반복 때 사용한다.
+- do-while은 while을 사용하고 싶은데 한 번은 실행해야 할 때 사용한다.
 </details>
