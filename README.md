@@ -109,3 +109,44 @@
 
 - y = (x>0)?1:-1; ==> 조건문이 참이면 1 거짓이면 -1
 </details>
+
+<details>
+
+<summary>3.Mathematical Functions, Characters, Strings, Loops</summary>
+
+## 3.Mathematical Functions, Characters, Strings, Loops
+
+#### Mathematical Function
+
+- Java는 Math 클래스를 통해 유용한 메소드를 제공한다.
+- 예를 들어 상수 PI, E가 있고 메소드 min, max, abs 등이 있다.
+
+#### The random Method
+
+- Math.random()
+- 랜덤으로 double형의 value를 생성한다. 범위 0.0 ~ 1.0
+
+#### Character Data Type
+
+- char형의 variable도 증감연산이 가능하다.
+
+#### Unicode Format
+
+- Java character는 Unicode를 사용한다.
+
+#### The String Type
+
+- char형은 오직 하나의 문자만 표현한다.
+- 문자열을 표현하기 위해서는 String이라는 데이터형을 사용해야 한다.
+- String은 몇 Java 라이브러리에 predefined 되어 있지만 primitive type은 아니다.
+- 이는 reference type이며 Ch.9에서 다시 볼 예정이다.
+
+#### Instance method and static method
+
+- object 기반의 메소드를 Instance method라고 하고 object 없이 실행될 수 있는 메소드를 static method라고 한다.
+
+#### Conversion between Strings and Numbers
+
+- parseInt를 사용하거나 String s = number + ""; 등과 같은 방법이 있다.
+
+</details>
