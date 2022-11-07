@@ -164,3 +164,30 @@
 - while은 반복 횟수가 정해져 있지 않거나 input이 0일때까지 하는 반복 때 사용한다.
 - do-while은 while을 사용하고 싶은데 한 번은 실행해야 할 때 사용한다.
 </details>
+
+<details>
+
+<summary>4.Method</summary>
+
+## 4.method
+
+### Defining Methods
+
+- Method signature는 method name과 parameter list로 이루어져 있다.
+- Method header에 정의된 변수를 formal parameter라고 한다.
+- 함수를 정의할 때 static을 사용하면 객체를 생성하지 않고도 사용할 수 있다.
+- 함수를 실행할 때 parameter에 넣는 변수를 actual parameter 혹은 argument라고 한다.
+- return value type대로 return 해야 한다.
+
+### Reuse Methods from Other Classes
+
+- 같은 패키지에 있으면 import할 필요 없이, ClassName.methodName을 통해 다른 class의 메소드를 사용할 수 있다.
+- pass by value: 복사된 데이터를 전달하여 구성함으로써, 값을 수정해도 원본의 데이터에는 영향을 주지 않는다.
+
+### Overloading Methods
+
+- 메소드 이름은 같고 parameter list는 다르다.
+- 리턴값만 다른 것은 오버로딩이라고 볼 수 없다.
+- 접근 제어자도 자유롭게 지정 가능하다.
+- 사용하는 이유는 같은 기능을 하는 메소드를 하나의 이름으로 사용할 수 있고 메소드 이름을 절약할 수 있기 때문이다.
+</details>
