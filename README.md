@@ -251,4 +251,9 @@ System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
 - Array.equals(list1, list2) : 두 배열이 같은지 검사한다.
 - Array.fill(list, 5) : 배열을 5로 채워 넣음, Array.fill(list, 1, 5, 8) : 1번 부터 5번까지 8로 채워 넣는다.
 - Array.toString(list) : 배열의 요소들을 string 으로 return 한다.
+
+#### Multidimensional Array
+
+- 이차원 배열: dataType[][] refVar = new dataType[10][10];
+- 
 </details>
