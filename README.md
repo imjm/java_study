@@ -257,3 +257,64 @@ System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
 - 이차원 배열: dataType[][] refVar = new dataType[10][10];
 - 
 </details>
+
+<details>
+
+<summary>6.Objects and Classes</summary>
+
+## 6.Objects and Classes
+
+#### Object-Oriented Programming Concepts
+
+- 명사로 지칭하는 것은 객체로 표현 가능하다.
+- object 는 state 와 behavior 를 갖고 state 는 object 를 정의하고 behavior 은 object 가 무엇을 하는지 정의한다.
+
+#### Classes
+
+- 클래스를 통해 동일한 유형의 object 를 정의한다.
+- Java 클래스는 변수를 사용하여 데이터 필드를 정의하고 메소드를 정의하여 동작을 결정한다.
+- 생성자라고 하는 특별한 메소드를 제공한다.
+
+#### Constructor
+
+- 생성자의 이름은 클래스의 이름과 같아야 한다.
+- 생성자는 return type 을 갖지 않는다.
+- 생성자는 객체를 생성할 때 new 연산자를 사용함으로서 실행된다.
+- 클래스는 생성자 없이 정의될 수 있고, 이때 default constructor 가 자동으로 생성된다.
+
+#### Default Value for a Data Field
+
+- 메인 메소드에서와는 달리 자동으로 초기화 해준다.
+
+#### Object type assignment
+
+- 예를 들어, c1와 c2가 객체라고 가정하고 c1 = c2 를 해주면 c1은 기존에 가리키던 공간을 버리고(이는 JVM이 해준다) c2의 공간을 가리킨다.
+- 위의 JVM이 해주는 행위를 Garbage Collection 이라고 한다.
+- object 가 더이상 필요하지 않을 경우 object 에 대한 참조 변수에 null 을 명시적으로 할당할 수 있다.
+
+
+#### Instance Variables / Static Variables
+
+- Instance variables: 같은 클래스에 의해 생성된 object 들 사이에서 공유되지 않는다.
+- Static variables: 한 object 에서 static variable 을 바꾸면 다른 object 도 영향을 받는다.
+
+#### Visibility Modifiers and Accessor/Mutator Methods
+
+- modifier 를 사용하지 않았을 때는 같은 패키지에 있으면 접근 가능하다.
+- public 의 경우에는 모든 패키지에서도 접근이 가능하다.
+- private 은 선언한 클래스에서만 접근이 가능하다.
+
+#### Data Field Encapsulation
+
+- 데이터를 보호하기에 좋고 유지보수에도 좋다. 
+
+#### Passing Objects to Methods
+
+- 배열과 같이 객체의 reference 를 넘겨준다.
+
+#### this Keyword
+
+- 객체 자체를 참조하는 reference 의 이름이다.
+- this 의 일반적인 용도는 클래스의 숨겨진 데이터필드를 참조하는 것이다.
+- 생성자가 동일한 클래스의 다른 생성자를 호출할 수 있도록 하는 방법이다.
+</details>
