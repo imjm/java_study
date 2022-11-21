@@ -1,4 +1,4 @@
-# JAVA 복습
+# JAVA 복습.
 
 <details>
 
